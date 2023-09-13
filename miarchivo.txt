@@ -3,23 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesión</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Vincula tu archivo de estilos CSS si lo tienes -->
+    <title>Menú</title>
+    <style>
+        /* Estilos básicos para el menú */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <div class="login-container">
-        <h2>Iniciar Sesión</h2>
-        <form action="procesar_login.php" method="POST">
-            <div class="input-container">
-                <label for="usuario">Usuario:</label>
-                <input type="text" id="usuario" name="usuario" required>
-            </div>
-            <div class="input-container">
-                <label for="contrasena">Contraseña:</label>
-                <input type="password" id="contrasena" name="contrasena" required>
-            </div>
-            <button type="submit">Iniciar Sesión</button>
-        </form>
-    </div>
+    <ul>
+        <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="ayuda.html">Ayuda</a></li>
+        <li><a href="comentarios.html">Comentarios</a></li>
+        <li><a href="ingresar.html">Ingresar</a></li>
+    </ul>
 </body>
 </html>
+
